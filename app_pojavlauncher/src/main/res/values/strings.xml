@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_name" translatable="false">XDAetherium</string>
+    <string name="app_name" translatable="false">minelauncher</string>
 
     <!-- Action bar part -->
 
@@ -30,7 +30,7 @@
     <string name="alerttitle_installmod">Select a mod installer</string>
 
     <!-- Error messages -->
-    <string name="error_fatal">XDAetherium has unexpectedly crashed</string>
+    <string name="error_fatal">minelauncher has unexpectedly crashed</string>
     <string name="error_no_version">No version!</string>
     <string name="error_show_more">Show more</string>
     <string name="error_show_less">Show less</string>
@@ -38,14 +38,9 @@
     <!-- Toast messages -->
     <string name="toast_permission_denied">The read/write to storage permission is required!</string>
     <string name="toast_optifine_success">Install successful</string>
-    <!--
-    <string name="toast_3">Exit</string>
-    -->
 
     <!-- MCLauncherActivity: Tabs -->
     <string name="mcl_tab_wiki">Wiki</string>
-
-    <!-- MCLauncherActivity: Account status -->
 
     <!-- MCLauncherActivity: Strings -->
     <string name="mcl_launch_cleancache">Cleaning cache files</string>
@@ -55,7 +50,6 @@
 
     <string name="mcl_options">Options</string>
     <string name="mcl_option_customcontrol">Custom controls</string>
-
 
     <string name="mcl_setting_title_use_surface_view">Use alternate surface rendering</string>
     <string name="mcl_setting_subtitle_use_surface_view">May help performance in GPU bound scenarios.</string>
@@ -141,10 +135,6 @@
     <string name="import_control_verifying_file">File is being verified, please wait and try again…</string>
     <string name="import_control_invalid_name">Invalid name or file already exists</string>
     <string name="import_control_done">Importation done</string>
-    <!--
-    <string name="control_more3"></string>
-    <string name="control_more4"></string>
--->
 
     <string name="customctrl_toggle">Toggleable</string>
     <string name="customctrl_size">Dimensions &amp; Scale</string>
@@ -261,7 +251,7 @@
     <string name="color_default_hex" translatable="false">FFFF0000</string>
     <string name="notif_channel_name">General</string>
     <string name="notif_channel_id" translatable="false">channel_id</string>
-    <string name="lazy_service_default_title">XDAetherium Foreground Service</string>
+    <string name="lazy_service_default_title">minelauncher Foreground Service</string>
     <string name="mcl_setting_veroption_installed">Installed</string>
     <string name="use_global_default">(Use global default)</string>
     <string name="default_control">Default controlmap</string>
@@ -315,14 +305,12 @@
     <string name="preference_deadzone_scale_title">Joystick deadzone scale</string>
     <string name="preference_deadzone_scale_description">Increase it if the joystick drifts.</string>
 
-
     <string name="force_minecraft_language">Force Minecraft Language</string>
     <string name="search_language">Search language...</string>
     <string name="export_backup_title">Export Data (Backup)</string>
     <string name="export_backup_summary">Save worlds, settings, and cursors to a ZIP archive</string>
     <string name="import_backup_title">Import Data (Backup)</string>
     <string name="import_backup_summary">Restore data from a ZIP archive</string>
-
 
     <string name="preference_disable_profile_isolation_title">Disable per‑profile directories</string>
     <string name="preference_disable_profile_isolation_summary">Use a single .minecraft directory for all profiles instead of separate directories</string>
@@ -351,7 +339,6 @@
     <string name="of_dl_failed_to_scrape">Failed to collect data for OptiFine installation</string>
     <string name="of_dl_progress">Downloading %s</string>
     <string name="create_profile_optifine">Create OptiFine profile</string>
-
 
     <string name="hint_search_modpack">Search for modpacks</string>
 
@@ -482,7 +469,7 @@
     <string name="mg_renderer_summary_computeShaderext">May help with shaderpack glitches. Disable if not needed, can cause crashes.</string>
     <string name="mg_renderer_title_multidrawCompute">Use Compute Multidraw Emulation</string>
     <string name="mg_renderer_summary_multidrawCompute">Uses compute shaders for multidraw emulation</string>
-    <string name="app_short_name" translatable="false">XDAetherium</string>
+    <string name="app_short_name" translatable="false">minelauncher</string>
     <string name="demo_versions_supported">Only Vanilla 1.3.1 and above are supported on demo accounts</string>
     <string name="demo_unsupported">Demo Profile not supported</string>
     <string name="change_account">Please change accounts to use this function</string>
@@ -520,7 +507,6 @@
     <string name="sodium_override_title">Run sodium forcefully</string>
     <string name="sodium_override_summaryOff">Using sodium may cause visual bugs and crashes. You have been warned.</string>
     <string name="sodium_override_summaryOn">Sodium is not supported. No help will be given if you encounter any issues.</string>
-    <!--  Make sure the people turning this on can read English.  -->
     <string name="sodium_math_warning_title" translatable="false">Solve the math question to enable</string>
     <string name="sodium_math_warning_message" translatable="false">
     Sodium is unsupported, you are on your own. No support will be given in the discord server.\nUsing sodium may result in bugs, glitches, and crashes. No help will be given even if you lose any of your worlds or saves.\n\nNow what\'s %1$s multiplied by %2$s plus %3$s minus %4$s?
@@ -598,7 +584,6 @@
     <string name="theme_text_color_title">Text Color</string>
     <string name="theme_choose_text_color">Choose Text Color</string>
     <string name="theme_reset_defaults">Reset to defaults</string>
-
 
     <!-- Cursor Store Extra Strings -->
     <string name="cursor_store_file_loaded">File loaded into editor!</string>
