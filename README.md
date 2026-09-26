@@ -2,13 +2,13 @@
   <img src="ic_launcher.webp" width="128" height="128" alt="XDAetherium app icon">
 </p>
 
-# XDAetherium Android
+# minelauncher Android
 
 <p align="center">
   <a href="README.md">English</a> | <a href="README_RU.md">Русский</a>
 </p>
 
-**XDAetherium** is an Android launcher for running **Minecraft: Java Edition** on phones and tablets. It is based on Amethyst/PojavLauncher/Boardwalk and includes custom changes for a smaller APK, Ely.by accounts, working Ely.by skins, custom branding, and Android Java runtime fixes.
+**minelauncher** is an Android launcher for running **Minecraft: Java Edition** on phones and tablets. It is based on Amethyst/PojavLauncher/Boardwalk and includes custom changes for a smaller APK, Ely.by accounts, working Ely.by skins, custom branding, and Android Java runtime fixes.
 
 > This project is not affiliated with Mojang, Microsoft, or Ely.by. Use your own account and follow the rules of the corresponding services.
 
