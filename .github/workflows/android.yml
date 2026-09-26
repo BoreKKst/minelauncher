@@ -23,16 +23,33 @@ jobs:
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          log-accepted-android-sdk-licenses: false
+
+      - name: Accept Android SDK licenses
+        run: |
+          yes | sdkmanager --licenses || true
+          yes | sdkmanager "platforms;android-34" "build-tools;34.0.0" "ndk;25.2.9519653" || true
 
       - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
+        run: |
+          find . -name gradlew -type f -exec chmod +x {} \;
 
       - name: Build Debug APK
-        run: ./gradlew :app_pojavlauncher:assembleDebug
+        run: |
+          if [ -f ./gradlew ]; then
+            ./gradlew :app_pojavlauncher:assembleDebug
+          else
+            GRADLEW=$(find . -name gradlew -type f | head -1)
+            echo "Using gradlew at: $GRADLEW"
+            "$GRADLEW" :app_pojavlauncher:assembleDebug
+          fi
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: minelauncher-debug
-          path: app_pojavlauncher/build/outputs/apk/debug/*.apk
-
+          path: |
+            **/build/outputs/apk/debug/*.apk
+            app_pojavlauncher/build/outputs/apk/debug/*.apk
+          if-no-files-found: warn
